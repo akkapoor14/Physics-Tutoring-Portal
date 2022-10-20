@@ -1,2 +1,10 @@
 Flask
 Gunicorn
+postgres
+psycopg2-binary
+Flask-SQLAlchemy>=2.5.1
+Flask-Migrate==2.5.2
+python-dotenv
+werkzeug==2.0.3
+Flask-Script==2.0.6
+SQLAlchemy
