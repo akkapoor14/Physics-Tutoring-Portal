@@ -25,3 +25,31 @@ class Users(db.Model):
 
     def __repr__(self):
         return '<id {}>'.format(self.id)
+
+
+
+class Classes(db.Model):
+    __tablename__ = 'classes'
+
+    id = db.Column('id',db.Integer,primary_key=True)
+
+    def __repr__(self):
+        return '<id {}>'.format(self.id)
+
+
+class Tutorships(db.Model):
+    __tablename__ = 'tutorships'
+
+    id = db.Column('id',db.Integer,primary_key=True)
+
+    def __repr__(self):
+        return '<id {}>'.format(self.id)
+
+
+class TutorClass(db.Model):
+    __tablename__ = 'tutor_classes'
+
+    id = db.Column('id',db.Integer,primary_key=True)
+
+    def __repr__(self):
+        return '<id {}>'.format(self.id)
