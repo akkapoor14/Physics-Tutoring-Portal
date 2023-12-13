@@ -1,5 +1,8 @@
 # Physics-Tutoring-Portal
 
+## Project Overview
+In a four-person team, designed, created, and deployed a three-tier web app to match Princeton physics students with tutors, creating a portal for each user type: student, tutor, and admin. Used GitHub for effective collaborative development. Hosted the frontend and backend servers on Render and ran both servers using the Python Flask Framework. Coded the frontend using HTML with the Jinja2 Template Engine and styling languages and frameworks such as CSS, SASS, and Bootstrap. For the backend, used Flask to expose our API to the frontend in combination with Marshmallow for simple parameter validation, and Flask-SQLAlchemy as our ORM for sending queries to our database and for defining datamodels. Used PostgreSQL as our database management system, and hosted our database remotely through bit.io. Implemented Princeton University’s CAS system for user authentication. Created a programmer’s guide, users’ guide, and product evaluation including detailed descriptions and diagrams of all use cases, all three layers of the tech stack, and all our app testing. Presented app with a demonstration and pitch to instructors and classmates.
+
 ## Development
 
 ### Setup
